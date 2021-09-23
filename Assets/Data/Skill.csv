@@ -1,0 +1,3 @@
+id,idx,不可移动时间,技能指示器类型,吟唱时间
+string,int,float,int,
+id,idx,hardTime,hintType,
