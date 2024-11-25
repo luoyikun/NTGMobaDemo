@@ -34,7 +34,7 @@ public class BuildAssetBundle : MonoBehaviour {
     }
     static private BuildTarget GetBuildTarget()
     {
-        BuildTarget target = BuildTarget.WebPlayer;
+        BuildTarget target = BuildTarget.StandaloneWindows;
 #if UNITY_STANDALONE
         target = BuildTarget.StandaloneWindows;
 #elif UNITY_IPHONE

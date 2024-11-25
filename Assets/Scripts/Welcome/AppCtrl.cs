@@ -77,12 +77,12 @@ public class AppCtrl : MonoBehaviour
         if (show)
         {
             QualitySettings.pixelLightCount = 4;
-            QualitySettings.blendWeights = BlendWeights.TwoBones;
+            QualitySettings.skinWeights = SkinWeights.TwoBones;
         }
         else
         {
             QualitySettings.pixelLightCount = 1;
-            QualitySettings.blendWeights = BlendWeights.OneBone;
+            QualitySettings.skinWeights = SkinWeights.OneBone;
         }
     }
 
